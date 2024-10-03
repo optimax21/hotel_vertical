@@ -41,8 +41,3 @@ ___
 * The bill includes itemized details of all orders, taxes, and service charges.
 * Payment can be processed through multiple methods, and receipts are generated.
 
-
-## Reports
-#### ➤ Laundry Order Analysis
-* Generate reports analyzing laundry orders, helping you understand trends, identify areas for improvement, and make informed business decisions based on order data.
-
