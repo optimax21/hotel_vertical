@@ -1,0 +1,154 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "BB.#####",
+ "creation": "2024-08-20 16:39:41.311928",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_name",
+  "banquet_type",
+  "event_name",
+  "column_break_6xau",
+  "start_date",
+  "end_date",
+  "email",
+  "mobile_no",
+  "section_break_bzbo",
+  "address",
+  "maximum_number_of_guests",
+  "spaces_requested",
+  "are_you_using_an_outside_caterer",
+  "outside_caterer",
+  "will_you_be_using_audiovisual_equipment",
+  "audiovisual_equipment",
+  "please_briefly_describe_your_audiovisual_needs",
+  "any_other_questions_or_comments"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Customer Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "banquet_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Banquet Type",
+   "options": "Room"
+  },
+  {
+   "fieldname": "event_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Event Name"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "End Date"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "mobile_no",
+   "fieldtype": "Data",
+   "label": "Mobile No"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Long Text",
+   "label": "Address"
+  },
+  {
+   "fieldname": "maximum_number_of_guests",
+   "fieldtype": "Data",
+   "label": "Maximum Number of Guests"
+  },
+  {
+   "fieldname": "spaces_requested",
+   "fieldtype": "Data",
+   "label": "Space(s) Requested"
+  },
+  {
+   "fieldname": "are_you_using_an_outside_caterer",
+   "fieldtype": "Heading",
+   "label": "Are you using an outside caterer? "
+  },
+  {
+   "fieldname": "outside_caterer",
+   "fieldtype": "Select",
+   "label": "Outside Caterer",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "will_you_be_using_audiovisual_equipment",
+   "fieldtype": "Heading",
+   "label": "Will you be using audiovisual equipment?"
+  },
+  {
+   "fieldname": "audiovisual_equipment",
+   "fieldtype": "Select",
+   "label": "Audiovisual Equipment",
+   "options": "Yes\nNo"
+  },
+  {
+   "fieldname": "please_briefly_describe_your_audiovisual_needs",
+   "fieldtype": "Small Text",
+   "label": "Please briefly describe your audiovisual needs"
+  },
+  {
+   "fieldname": "any_other_questions_or_comments",
+   "fieldtype": "Long Text",
+   "label": "Any other questions or comments"
+  },
+  {
+   "fieldname": "column_break_6xau",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_bzbo",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-21 13:57:49.718654",
+ "modified_by": "Administrator",
+ "module": "Hotel Vertical",
+ "name": "Banquet Booking",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

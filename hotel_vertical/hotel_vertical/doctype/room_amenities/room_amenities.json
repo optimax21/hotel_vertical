@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-12 11:45:28.603932",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "amenities_category",
+  "amenity_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "amenities_category",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Amenities Category"
+  },
+  {
+   "fieldname": "amenity_rate",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Amenity Rate"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-08-12 12:09:29.285036",
+ "modified_by": "Administrator",
+ "module": "Hotel Vertical",
+ "name": "ROOM AMENITIES",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

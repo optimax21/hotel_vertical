@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "KOT.#####",
+ "creation": "2024-08-13 14:31:50.810508",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "order_number",
+  "customer_name",
+  "reservation_number",
+  "date",
+  "waiter_name",
+  "table_list",
+  "order_list"
+ ],
+ "fields": [
+  {
+   "fieldname": "reservation_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Reservation Number"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "waiter_name",
+   "fieldtype": "Data",
+   "label": "Waiter Name"
+  },
+  {
+   "fieldname": "table_list",
+   "fieldtype": "Table",
+   "label": "Table List",
+   "options": "Table Booking Child"
+  },
+  {
+   "fieldname": "order_list",
+   "fieldtype": "Table",
+   "label": "Order List",
+   "options": "Sales Order Item"
+  },
+  {
+   "fieldname": "order_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Order Number"
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Customer Name"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-20 11:30:13.284841",
+ "modified_by": "Administrator",
+ "module": "Hotel Vertical",
+ "name": "Kitchen Order Tickets",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

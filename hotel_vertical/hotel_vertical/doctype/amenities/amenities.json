@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2024-08-12 12:29:50.261247",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "name1",
+  "amenity_type",
+  "amenity_manager",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "amenity_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Amenity Type",
+   "options": "Amenities Type"
+  },
+  {
+   "fieldname": "amenity_manager",
+   "fieldtype": "Link",
+   "label": "Amenity manager",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "DESCRIPTION"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-27 16:09:41.800086",
+ "modified_by": "Administrator",
+ "module": "Hotel Vertical",
+ "name": "Amenities",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

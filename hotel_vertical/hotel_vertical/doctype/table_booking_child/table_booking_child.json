@@ -1,0 +1,48 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-13 10:09:30.288106",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "floor",
+  "table_number",
+  "capacity"
+ ],
+ "fields": [
+  {
+   "fieldname": "table_number",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Table Number",
+   "options": "Tables"
+  },
+  {
+   "fetch_from": ".capacity",
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "floor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Floor",
+   "options": "Floor"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-10-03 15:36:05.697848",
+ "modified_by": "Administrator",
+ "module": "Hotel Vertical",
+ "name": "Table Booking Child",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
