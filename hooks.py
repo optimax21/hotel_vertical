@@ -1,5 +1,5 @@
 app_name = "hotel_vertical"
-app_title = "Hotel Vertical"
+app_title = "Restaurant Management"
 app_publisher = "Your Name"
 app_description = "Hotel Management System for Frappe"
 app_email = "your_email@example.com"
